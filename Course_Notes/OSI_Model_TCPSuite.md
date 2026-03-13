@@ -66,6 +66,10 @@ Application developers work with the top layers of the OSI model to connect thei
 
 - Segments and reassembles data for communication between end hosts.
 - Breaks large pieces of data into smaller segments which can be more easily sent over the network and are less likely to cause transmission problems if errors occur.
+- Error Detection & Recovery
+- Flow control: It slows down or speeds up sending based on how fast the receiver can handle it.
+- Multiplexing & Demultiplexing.
+- Connection Management.
 - Provides HOST-TO-HOST (end to end) communication
 
 When Data from Layer 7-5 arrives, it receives a Layer 4 Header in the Transport layer.
